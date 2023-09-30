@@ -119,3 +119,31 @@
 
 
 
+def gen(x):
+    yield 20
+# k = lambda x : x+x 
+
+# print(k(5))
+
+# next(gen(10))
+# class person:
+#     def __init__(self):
+#         self.ram =""
+#         self.brand = ""
+
+# a =person
+
+# a.ram = "5gb"
+# a.brand="dell"
+# a.ram = "6gb"
+
+list1 = [10,20,30,2,5]
+largest = list1[0]
+for i in list1:
+    if(int(i)> largest):
+        largest=list[i]
+
+print(largest)
+
+
+
