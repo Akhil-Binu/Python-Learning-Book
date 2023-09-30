@@ -4,13 +4,6 @@ len1 = len(a)
 
 result = 0
 
-for i in range(len1):
-     for j in range(len1):
-        if(a[i]==a[j]):
-            break
-        else:
-          print(a[i])
-            
+for i in range(a):
+    print(a[i])
 
-
-print(result)
